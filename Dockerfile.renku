@@ -1,0 +1,14 @@
+FROM renku/singleuser:0.3.6-renku0.5.2
+
+# Uncomment and adapt if code is to be included in the image
+# COPY src /code/src
+
+# install the python dependencies
+COPY requirements.txt environment.yml /tmp/
+
+RUN conda env update -n "root" -q -f /tmp/environment.yml
+# RUN conda env update -n "root" -q -f /tmp/environment.yml && \
+#     conda clean -y --all && \
+#     conda env export -n "root"
+
+COPY ./docker/gitconfig /home/jovyan/.gitconfig
