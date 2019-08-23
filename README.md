@@ -111,41 +111,6 @@ If you wish, you can install [Docker Desktop](https://www.docker.com/products/do
             <td>Details and Reflection</td>
             <td style="text-align: left">What is the benefit? How much effort was it? How do we view, share, and reuse artifacts? How do things work under the covers?</td>
         </tr>
-        <tr>
-            <th></th>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>Break (20 min)</th>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th></th>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>Hands-on with Code Ocean (1h)</th>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>10 min</th>
-            <td>Demo of a Compute Capsule</td>
-            <td style="text-align: left">Intro to Code Ocean and its design philosophy</td>
-        </tr>
-        <tr>
-            <th>30 min</th>
-            <td>Creating a Compute Capsule</td>
-            <td style="text-align: left">Create a reproducible compute capsule using code and data from the existing Renku project. We will explore options to publish, collaborate, import from Github, export to local server, etc.</td>
-        </tr>
-        <tr>
-            <th>15 min</th>
-            <td>Q&A, Wrap up</td>
-            <td style="text-align: left">Any questions that you want to ask</td>
-        </tr>
      </tbody>
 </table>
 
