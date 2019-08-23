@@ -26,8 +26,8 @@ And, if you do not wish to set up an environment on your computer, you can [foll
 **Verifying the setup**
 1. Activate the environment with `conda activate r10eds`
 2. Run `git --version` -- the result should be "git version 2.21.0" (or newer)
-3. Run `git lfs --version` -- the result should be "git-lfs/2.7.1" (or newer)
-4. Run `renku --version` -- the result should be "0.5.0" (or newer)
+3. Run `git lfs --version` -- the result should be "git-lfs/2.8.0" (or newer)
+4. Run `renku --version` -- the result should be "0.5.2" (or newer)
 
 **Note for Windows users**
 If you are on Windows, we recommend using one of the hosted environments, either renkulab or binder.
