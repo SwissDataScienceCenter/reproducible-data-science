@@ -14,16 +14,25 @@ def strip_output_cells():
         strip_notebook_output_cells(t)
     metanbs = glob.glob("./*.ipynb")
     for t in metanbs:
-        strip_notebook_output_cells(t)        
+        strip_notebook_output_cells(t)
 
 
-def delete_tutorial_artifacts():
-    """Remove the renku-tutorial-flights folder"""
-    pass
+def warn_tutorial_artifacts():
+    """Check and warn if tutorial execution artifacts are found."""
+    paths = glob.glob("renku-tutorial-*")
+    if len(paths) < 1:
+        print("No artifacts found.")
+        return
+
+    print("Found {} execution folder(s).".format(len(paths)))
+    for path in paths:
+        print("Found {}. May want to clean with 'rm -rf {}'".format(path, path))
 
 
-print("Stripping output cells from notebooks.")
+print("Stripping output cells from notebooks...")
 strip_output_cells()
 
-# print("Delete the renku-tutorial-flights folder.")
-# delete_tutorial_artifacts()
+print("\nChecking for tutorial execution artifacts...")
+warn_tutorial_artifacts()
+
+print("Done.")
