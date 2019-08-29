@@ -10,7 +10,7 @@ If you use docker, you can use the provided Dockerfile to create an environment 
 
 Execute
 ```bash
-docker run --rm -it -p"8888:8888" -v(pwd):/r10eds r10eds jupyter lab --ip=0.0.0.0 --no-browser --allow-root --notebook-dir=/r10eds/notebooks/hands-on/local_notebook
+docker run --rm -it -p"8888:8888" -v(pwd):/r10eds r10eds jupyter lab --ip=0.0.0.0 --no-browser --allow-root --notebook-dir=/r10eds/hands-on/local_notebook
 ```
 
 Then point a browser at

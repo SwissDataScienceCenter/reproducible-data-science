@@ -7,4 +7,4 @@ Then follow these sign up instructions:
 
 # Work Through Hands On
 
-Follow the instructions in the [notebooks/hands-on/hosted_notebook/index.ipynb](notebooks/hands-on/hosted_notebook/index.ipynb) notebook to work through the hands-on.
+Follow the instructions in the [hands-on/hosted_notebook/index.ipynb](hands-on/hosted_notebook/index.ipynb) notebook to work through the hands-on.

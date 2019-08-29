@@ -25,4 +25,4 @@
 1. Activate the environment with `conda activate r10eds`
 2. Start jupyter lab `jupyter lab` (you can also use plan jupyter)
 
-Enter the [notebooks/hands-on/local_notebook](notebooks/hands-on/local_notebook) directory, and start jupyter, and open the `index.ipynb` notebook to work through the hands-on.
+Enter the [hands-on/local_notebook](hands-on/local_notebook) directory, and start jupyter, and open the `index.ipynb` notebook to work through the hands-on.
