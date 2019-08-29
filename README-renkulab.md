@@ -1,25 +1,10 @@
-# Set up tutorial on Renkulab
+# Sign up to Renkulab
 
-If you do not with to set up an environment on your computer, you can use Renkulab.
-
-## Sign up
-
-First, connect to https://renkulab.io
+Connect to https://renkulab.io
 
 Then follow these sign up instructions:
 ![renkulab sign up](images/renkulab-sign-up.png)
 
-## Fork the main repo
+# Work Through Hands On
 
-Then, go to the r10e-ds-py repo: https://renkulab.io/gitlab/cramakri/r10e-ds-py and fork it following these instructions:
-![renkulab fork repo](images/renkulab-fork.png)
-
-## Naviate to your project
-
-Connect back to https://renkulab.io/. You should see the r10e-ds-py as one of your projects. Click on that link.
-
-![your projects](images/your-projects.png)
-
-## Start a server
-
-![start server](images/start-server.png)
+Follow the instructions in the [hands-on/hosted_notebook/index.ipynb](hands-on/hosted_notebook/README.md) notebook to work through the hands-on.

@@ -7,50 +7,27 @@ The expectation of reproducibility in scientific work has been long established,
 
 # Set Up
 
-To avoid conflicts in dependencies, we recommend creating a dedicated environment for this tutorial. You can do this using any tool you like, for example [pipenv](https://pipenv.readthedocs.io/en/latest/) or [conda](https://docs.conda.io/en/latest/miniconda.html).
+There are several easy ways to set up an environment for working through the tutorial. The easiest is to use a hosted environment.
 
-We provide instructions based on conda below. If you use docker, we also provide a Dockerfile with [instructions for set up and use](README-docker.md). If you prefer to use something else, you will need to ensure that `git`, `git-lfs`, `curl`, and `node` are installed in your environment, but you should be able to pip install the requirements.txt file for the rest.
+## Hosted
 
-And, if you do not wish to set up an environment on your computer, you can [follow these instructions to use Renkulab](README-renkulab.md) or you can use a  [MyBinder Environment](https://mybinder.org/v2/gh/SwissDataScienceCenter/reproducible-data-science/master).
+* Renkulab is a Renku environment hosted by SDSC. [Follow these instructions to use Renkulab](README-renkulab.md).
+
+* Alternatively, you can use a [MyBinder Environment](https://mybinder.org/v2/gh/SwissDataScienceCenter/reproducible-data-science/master).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SwissDataScienceCenter/reproducible-data-science/master)
 
-## Step 1: Create Environment
+## Local
 
-**Create environment using conda**
+If you wish to run the tutorial on your own computer, you can create an environment with conda or docker.
 
-0. If you do not yet have conda, you should first [install miniconda for your platform](https://conda.io/miniconda.html)
-1. Download the [conda environment](https://raw.githubusercontent.com/SwissDataScienceCenter/reproducible-data-science/master/environment.yml)
-2. In the directory where `environment.yml` is located, execute `conda env create -n r10eds -f environment.yml`
+* [Set up an environment using conda](README-conda.md)
+* [Set up an environment using docker](README-docker.md)
 
-**Verifying the setup**
-1. Activate the environment with `conda activate r10eds`
-2. Run `git --version` -- the result should be "git version 2.21.0" (or newer)
-3. Run `git lfs --version` -- the result should be "git-lfs/2.8.0" (or newer)
-4. Run `renku --version` -- the result should be "0.5.2" (or newer)
+ If you prefer to use something else (e.g., [pipenv](https://pipenv.readthedocs.io/en/latest/)), you will need to ensure that `git`, `git-lfs`, `curl`, and `node` are installed in your environment, but you should be able to pip install the requirements.txt file for the rest.
 
 **Note for Windows users**
 If you are on Windows, we recommend using one of the hosted environments, either renkulab or binder.
-
-
-## Step 2: Clone the tutorial repository
-
-1. Activate the environment with `conda activate r10eds`
-2. Clone the repository `git clone https://github.com/SwissDataScienceCenter/reproducible-data-science.git`
-
-# Run the tutorial
-
-Once you have the environment set up and repository cloned, you can use them.
-
-0. cd into the tutorial repository `cd reproducible-data-science`
-1. Activate the environment with `conda activate r10eds`
-2. Start jupyter lab `jupyter lab` (you can also use plan jupyter)
-
-
-### Optional Components
-
-If you wish, you can install [Docker Desktop](https://www.docker.com/products/docker-desktop). It is not a requirement, but it will make it possible to dig deeper into certain areas in the tutorial.
-
 
 # Schedule
 
