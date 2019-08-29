@@ -42,7 +42,7 @@ Connect to the server from the `Running>Connect` contextual menu.
 
 ![connect to the session](tutorial-images/04-connect.png)
 
-# Viewing contents of repository
+# Viewing contents of the project repository
 
 The remainder of the tutorial runs on the hosted platform. You should go to the notebook 
 `index.ipynb` in the base directory and follow the tutorial from there.
